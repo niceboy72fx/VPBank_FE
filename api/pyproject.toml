@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "api"
+version = "0.1.0"
+description = ""
+authors = ["hoanglv92 <hoangtuathat@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django-ninja = "^1.1.0"
+psycopg = "^3.1.18"
+psycopg2 = "^2.9.9"
+celery = "^5.3.6"
+django-celery-beat = "^2.6.0"
+django-celery-results = "^2.5.1"
+flower = "^2.0.1"
+redis = "^5.0.3"
+django = "^5.0.3"
+phonenumbers = "^8.13.33"
+django-phonenumber-field = "^7.3.0"
+psycopg2-binary = "^2.9.9"
+drf-yasg = "^1.21.7"
+djangorestframework-simplejwt = "^5.3.1"
+rest-framework-simplejwt = "^0.0.2"
+axios = "^0.4.0"
+django-cors-headers = "^4.3.1"
+channels = {extras = ["daphne"], version = "^4.1.0"}
+channels-redis = "^4.2.0"
+daphne = "^4.1.2"
+uvicorn = {extras = ["standard"], version = "^0.29.0"}
+gunicorn = "^21.2.0"
+djangorestframework = "^3.15.1"
+
+[tool.poetry.group.dev.dependencies]
+PyJWT = "^2.8.0"
+Django = "^5.0.2"
+django-filter = "^23.5"
+django-hint = "^0.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
